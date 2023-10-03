@@ -1,10 +1,30 @@
-## Create a course selling website
+# Course Selling App
+The Course Selling App is a web application that allows users to buy and manage courses. It provides functionalities for both administrators and users to create, edit, and purchase courses.
 
+# Features
+Authentication and authorization for administrators and users.
+Course management for administrators (create, edit, list).
+Course purchasing for users.
+List purchased courses for users.
 
-Create separate files for each entity (admin, user, course, purchase).
+# Technologies Used
+Node.js
+Express.js
+JSON Web Tokens (JWT)
+File system for data storage
+RESTful API design principles
 
-## Routes
-### Admin Routes:
+# Setup Instructions
+1. Clone the repository:
+ git clone https://github.com/your-username/course-selling-app.git
+ cd course-selling-app
+2. Install dependencies:
+ npm install
+3. Run the server:
+ node index.js
+4. API Endpoints
+ ## Routes
+ ### Admin Routes:
  - POST /admin/signup
    Description: Creates a new admin account.
    Input: { username: 'admin', password: 'pass' }
